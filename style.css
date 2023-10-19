@@ -1,0 +1,117 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and the logo (Hot Life) */
+header {
+    background-color: rgb(237, 149, 61);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; /* Create space between the logo and navigation links */
+    align-items: center;
+    padding: 0 20px; /* Add padding on both sides */
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue; /* Set the color to blue for the logo */
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent (.logo) */
+}
+
+/* Style the navigation links */
+nav {
+    display: flex; /* Arrange the links horizontally */
+    align-items: center; /* Vertically center the links */
+}
+
+/* Style the container for navigation links */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Style individual navigation links */
+.nav-link {
+    color: blue;
+    text-decoration: none;
+    margin-left: 7px; /* Add 7px of margin between links */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Style the row containing product listings */
+.row {
+    background-color: rgb(34, 63, 121);
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style individual product columns */
+.col {
+    background-color: rgb(13, 127, 227);
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+/* Style images in product columns */
+img {
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+/* Style headings and prices */
+h4, h5 {
+    text-align: center;
+    color: cornsilk;
+}
+
+/* Style "BUY NOW" buttons */
+#btn {
+    color: rgb(94, 31, 36);
+    background-color: rgb(34, 237, 170);
+    padding: 5px;
+    margin-left: 50px;
+}
+#btn :hover{
+    color: aqua;
+    background-color: bisque;
+}
+
+/* Style the footer */
+footer, p {
+    background-color: rgb(237, 149, 61);
+    width: 100%;
+    height: 50px;
+    color: rgb(25, 101, 234);
+}
+
+/* Style the "Connect With Us" heading in the footer */
+h3 {
+    color: rgb(19, 131, 201);
+    text-align: center;
+}
+
+/* Style the banner image */
+.banner {
+    background-image: url(https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/A21TJRUUN4KGV/10430791bfdeffbcb31e158e767969f8.w3000.h600._CR0%2C0%2C3000%2C600_SX1500_.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
